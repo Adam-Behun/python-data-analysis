@@ -10,6 +10,7 @@
      - 2D labeled data structure with columns of potentially different data type
      - similar to an SQL table
      - define with: index (rowlabels) + data + columns (columnlabels)
+     - each column in a DataFrame is a Series
      
 # Lesson 3
 ## Loading data from external sources
@@ -52,3 +53,10 @@
     
 - concat
     - pd.concat()
+    
+### Selecting columns
+### Selecting rows and setting index
+    - .loc (label-based)
+    - .iloc (int-based)
+    - boolean indexing 
+- | & ~
