@@ -1,6 +1,6 @@
 # Lesson 1 - python basics
 
-# Lesson 2 - Pandas
+# Lesson 2 - Pandas data structures
 - Series
      - 1D labeled array hodling any data type
      - define with: index (axis labels) + data
